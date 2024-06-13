@@ -108,5 +108,5 @@ jobs:
         run: |
           echo "Verifying deployment"
           for i in {1..5}; do
-            curl -I https://haroldstx.github.io/CI-CD-New-Intent/ | grep "200 OK" && break || sleep 10
+            curl -I https://github.com/haroldstx/CI-CD-New-Intent/ | grep "200 OK" && break || sleep 10
           done
