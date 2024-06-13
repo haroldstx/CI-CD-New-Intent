@@ -1,5 +1,5 @@
 {
-    "name": "ci-cd-new-intent",
+    "name": "CI-CD-New-Intent",
     "version": "1.0.0",
     "scripts": {
       "build": "mkdir -p build && echo '<html><body><h1>This is my first, Hello World in Yaml!</h1></body></html>' > build/index.html",
